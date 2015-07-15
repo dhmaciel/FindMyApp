@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/linearLayoutMain"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="0dip"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relative_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapeseachbar"
+        android:isScrollContainer="false"
+        android:orientation="horizontal"
+        android:padding="7dp" >
+
+        <EditText
+            android:id="@+id/editTextFind"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shapeedittextview"
+            android:ems="10"
+            android:focusable="true"
+            android:freezesText="true"
+            android:hint="@string/find_field"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="text"
+            android:paddingLeft="40dp" />
+
+        <ImageButton
+            android:id="@+id/searchDeleteImgBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editTextFind"
+            android:layout_alignLeft="@+id/editTextFind"
+            android:layout_alignTop="@+id/editTextFind"
+            android:background="@drawable/ic_action_search" />
+
+        <ImageButton
+            android:id="@+id/deleteImgBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editTextFind"
+            android:layout_alignRight="@+id/editTextFind"
+            android:layout_alignTop="@+id/editTextFind"
+            android:background="@drawable/ic_content_remove"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linear_grids"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="65dp"
+        android:padding="7dp"  >
+
+        <TextView
+            android:id="@+id/topApps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapetextview"
+            android:gravity="left"
+            android:text="@string/top_apps"
+            android:textColor="@color/shape_text_view"
+            android:visibility="visible" />
+
+        <GridView
+            android:id="@+id/gridViewApps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topApps"
+            android:columnWidth="65dip"
+            android:gravity="center"
+            android:horizontalSpacing="20dip"
+            android:isScrollContainer="false"
+            android:numColumns="auto_fit"
+            android:padding="10dip"
+            android:scrollingCache="true"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="20dip" >
+        </GridView>
+
+        <TextView
+            android:id="@+id/LastApps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gridViewApps"
+            android:background="@drawable/shapetextview"
+            android:gravity="left"
+            android:text="@string/last_apps"
+            android:textColor="@color/shape_text_view"
+            android:visibility="visible" />
+
+        <GridView
+            android:id="@+id/gridViewInstalledApps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LastApps"
+            android:columnWidth="65dip"
+            android:gravity="center"
+            android:horizontalSpacing="20dip"
+            android:isScrollContainer="false"
+            android:numColumns="auto_fit"
+            android:padding="10dip"
+            android:scrollingCache="true"
+            android:verticalSpacing="20dip" >
+        </GridView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/banner_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linear_grids"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" 
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</RelativeLayout>

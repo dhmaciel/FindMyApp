@@ -1,0 +1,32 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Black">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <color name="shape_text_view">#FFFFF0</color>
+    <!-- Application theme. -->
+    <style name="Theme.Styled" parent="Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+            <item name="android:homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_dark</item>
+    
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/shapeactionbar</item>
+        <item name="android:background">@drawable/shapeactionbar</item>
+        <item name="backgroundSplit">@drawable/shapeactionbar</item>
+        <item name="android:backgroundSplit">@drawable/shapeactionbar</item>
+    
+    </style>
+
+</resources>

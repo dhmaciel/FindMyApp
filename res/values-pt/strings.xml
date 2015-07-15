@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FindMyApp</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_refresh_apps">Atualizar lista</string>
+    <string name="action_list_all">Todos Apps</string>
+    <string name="action_about">Sobre</string>
+    <string name="hello_world">Bem-vindo!</string>
+    <string name="top_apps">Mais usados:</string>
+    <string name="last_apps">Ultimas alterações:</string>
+    <string name="find_field">Encontre seu app</string>
+    <string name="apps_found">apps encontrados</string>
+    <string name="app_found">app encontrado</string>
+    <string name="preparing_list">Preparando listagem&#8230;</string>
+    <string name="please_wait">Por favor aguarde.</string>
+    <string name="notification_message">Toque para acessar o app.</string>
+
+    <!-- Alert unknown app -->
+    
+    <string name="unknown_app">App desconhecido</string>
+    <string name="not_run_app">Este app não pode ser executado no FindMyApp.\nRemover da listagem?</string>
+    <string name="yes_button">Sim</string>
+    <string name="no_button">Não</string>
+    
+    <!-- Preferecias -->
+
+    <string name="pref_auto_start">Iniciar aut. na notificação</string>
+    <string name="pref_auto_start_summary">Inicia automaticamente quando seu despositivo é reiniciado</string>
+    <string name="pref_close_app">Fechar automaticamente</string>
+    <string name="pref_close_app_summary">Fecha automaticamente ao selecionar um app</string>
+    <string name="pref_view_notification">Visualizar na notificação</string>
+    <string name="pref_view_notification_summary">Exibe na barra de notificação para acesso rápido</string>
+    <string name="pref_auto_rotate">Rotacionar a tela</string>
+    <string name="pref_auto_rotate_summary">Habilita/desabilita a rotação da tela</string>
+    <string name="title_activity_preferences">Configurações</string>
+    <string name="title_System">Sistema</string>
+    <string name="title_Other">Outros</string>
+    <string name="pref_find_piece_name">Pedaço do nome</string>
+    <string name="pref_find_piece_name_summary">Encontra o app que conter o caractere inserido em qualquer parte do seu nome</string>
+    <string name="pref_hide_keyboard">Esconder teclado</string>
+    <string name="pref_hide_keyboard_summary">Enconde o teclado virtual quando o app for iniciado</string>
+    
+    <!-- Sub menu  selected app -->
+    
+    <string name="sub_menu_run">Executar</string>
+    <string name="sub_menu_uninstall_app">Desinstalar</string>
+    
+    <!-- Refresh functionality -->
+    
+    <string name="refresh">Atualizando</string>
+    <string name="refresh_msg">Por favor aguarde&#8230;</string>
+    
+
+</resources>

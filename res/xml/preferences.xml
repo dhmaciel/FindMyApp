@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+        android:title="@string/title_System"
+        android:key="system_settings">
+    
+    <CheckBoxPreference
+        android:key="pref_auto_start"
+        android:title="@string/pref_auto_start"
+        android:summary="@string/pref_auto_start_summary"
+        android:defaultValue="true" />
+    
+        <CheckBoxPreference
+        android:key="pref_view_notification"
+        android:title="@string/pref_view_notification"
+        android:summary="@string/pref_view_notification_summary"
+        android:defaultValue="true" />
+    
+         <!--CheckBoxPreference
+        android:key="pref_auto_rotate"
+        android:title="@string/pref_auto_rotate"
+        android:summary="@string/pref_auto_rotate_summary"
+        android:defaultValue="true" /-->
+        
+    <CheckBoxPreference
+        android:key="pref_close_app"
+        android:title="@string/pref_close_app"
+        android:summary="@string/pref_close_app_summary"
+        android:defaultValue="true" />
+    
+        <CheckBoxPreference
+        android:key="pref_hide_keyboard"
+        android:title="@string/pref_hide_keyboard"
+        android:summary="@string/pref_hide_keyboard_summary"
+        android:defaultValue="false" />
+        
+	</PreferenceCategory>
+	
+       <PreferenceCategory 
+        android:title="@string/title_Other"
+        android:key="pref_key_storage_settings">
+    
+        <CheckBoxPreference
+        android:key="pref_find_piece_name"
+        android:title="@string/pref_find_piece_name"
+        android:summary="@string/pref_find_piece_name_summary"
+        android:defaultValue="false" />
+        
+           
+        </PreferenceCategory>
+    
+</PreferenceScreen>
