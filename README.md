@@ -12,6 +12,7 @@ Estas instruções devem lhe guiar como instalar o aplicativo, qual versão da p
 
 ### Pré-requisitos
 
+Para instalação em um dispositivo este deve possuir no mínimo a versão 9 (GingerBread) do sistema android. Para navegar e alterar o código fonte é recomendado a IDE Android Studio com acesso a internet.
 
 ### Capturas de telas
 
@@ -21,6 +22,42 @@ Estas instruções devem lhe guiar como instalar o aplicativo, qual versão da p
 [![](https://lh3.ggpht.com/I0lvcEN59qV2u_HpiHhu295pMZblIpApt0RYxMoNSFwS0lqHSjsExUPNwY0rK-YTXvdx=h500-rw)](https://play.google.com/store/apps/details?id=dmobile.example.worlo.cep_mvp&hl=pt_BR)
 [![](https://lh4.ggpht.com/9S-bBBpRsxSaaqLq6hB7lvRaFDhCRy2Ca-b932IP6ENjPZWJUjJ6Bb9ubB0Zsw2BPRpJ=h500-rw)](https://play.google.com/store/apps/details?id=dmobile.example.worlo.cep_mvp&hl=pt_BR)
 
+Sempre ativo
+
+```
+Sempre presente na barra de notificação.
+```
+
+Pesquisa de apps
+
+```
+Pesquisa de apps por nome.
+```
+
+Gerenciamento de apps
+
+```
+Pode facilmente visualizar os apps mais usados, ultimos instalados, executar uma aplicação ou desinstalar.
+```
+
+## Desenvolvimento
+
+O aplicativo possui alguns recursos como: 
+
+```
+Lista com resultados dos apps.
+
+Inicialização junto com o sistema.
+
+Banco de dados
+
+Tratamento de imagens.
+
+Serviços.
+
+Notificação.
+
+```
 
 ## Autor
 
